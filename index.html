@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather_App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <h1>Weather App</h1>
+        <div id="main">
+            <input type="text" id="city_name" placeholder="Enter city name">
+            <button id="search" type="submit">submit</button>
+            <h2 id="notFound">City not found</h2>
+            <h4 id="empty">City should not be Empty (^_^)</h4>
+            <div id="result">
+                <h3>
+                    <span>City : </span>
+                    <span id="city"></span>
+                </h3>
+                <p>
+                    <span id="heading">Temperature : </span>
+                    <span id="temp"></span>
+                </p>
+               
+                <p>
+                    <span id="heading">Wind Speed : </span>
+                    <span id="wind"></span>
+                </p>
+
+                <p>
+                    <span id="heading">Humidity : </span>
+                    <span id="humidity"></span>
+                </p>
+
+                <p>
+                    <span id="heading">Min-Temperature : </span>
+                    <span id="mintemp"></span>
+                </p>
+
+                <p>
+                    <span id="heading">Max-Temperature : </span>
+                    <span id="maxtemp"></span>
+                </p>
+
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
